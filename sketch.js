@@ -2,8 +2,8 @@ var = canvas;
 
 function setup() 
 {
-  canvas = createCanvas(400, 400);
-  canvas.position(0, 20);
+  createCanvas(windowWidth, 400);
+  //canvas.position(0, 20);
 }
 
 function draw() 
