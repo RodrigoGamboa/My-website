@@ -1,9 +1,12 @@
+var = canvas;
+
 function setup() 
 {
-  createCanvas(400, 400);
+  canvas = createCanvas(windowWidth, 400);
+  canvas.position(0, 20);
 }
 
 function draw() 
 {
-  background(220);
+  background(0);
 }
