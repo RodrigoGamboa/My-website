@@ -1,9 +1,10 @@
 function setup() 
 {
   createCanvas(windowWidth, 400);
+  background(0);
 }
 
 function draw() 
 {
-  background(0, 0, 255);
+  background(mouseY, mouseX, 255);
 }
