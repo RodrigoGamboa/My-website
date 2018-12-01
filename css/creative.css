@@ -74,7 +74,8 @@ section {
 
 ::selection {
   color: #fff;
-  background: #212529;
+  /*background: #212529;*/
+  background: #5ec729;
   text-shadow: none;
 }
 
